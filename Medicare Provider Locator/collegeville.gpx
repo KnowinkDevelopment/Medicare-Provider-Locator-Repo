@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gpx
+xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:gpxx = "http://www.garmin.com/xmlschemas/GpxExtensions/v3"
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd
+http://www.garmin.com/xmlschemas/GpxExtensions/v3
+http://www8.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd"
+version="1.1"
+creator="gpx-poi.com">
+   <wpt lat="40.206804" lon="-75.485902">
+      <time>2015-08-10T12:08:49Z</time>
+      <name>Collegeville</name>
+      <desc>Casa Suranie</desc>
+      <sym>Suranie</sym>
+      <type>Suranie</type>
+      <extensions>
+         <gpxx:WaypointExtension>
+            <gpxx:Address>
+               <gpxx:StreetAddress>94 Greenwood Ave</gpxx:StreetAddress>
+               <gpxx:City>Collegeville</gpxx:City>
+               <gpxx:State>PA</gpxx:State>
+               <gpxx:Country>US</gpxx:Country>
+               <gpxx:PostalCode>19426</gpxx:PostalCode>
+            </gpxx:Address>
+         </gpxx:WaypointExtension>
+      </extensions>
+   </wpt>
+</gpx>

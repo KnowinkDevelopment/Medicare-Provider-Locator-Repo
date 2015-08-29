@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F8I-K4-NDw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Medicare Provider Locator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xSq-h2-mls">
+                                        <rect key="frame" x="56" y="12" width="225" height="21"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="16"/>
+                                        <color key="textColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pEs-kR-dBH">
+                                        <rect key="frame" x="0.0" y="39" width="414" height="1"/>
+                                        <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Otu-Ad-CX6">
+                                        <rect key="frame" x="8" y="8" width="52" height="25"/>
+                                        <state key="normal" image="img_logo_white.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="reloadHomeView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jQW-cI-WGS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.41256847977638245" blue="0.64397048950195312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="btnHome" destination="Otu-Ad-CX6" id="FBy-Bb-4vf"/>
+                        <outlet property="vNavBar" destination="F8I-K4-NDw" id="oRp-Yu-Mwg"/>
+                        <segue destination="m61-dz-s3q" kind="show" id="uwG-sz-0hG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="460" y="374"/>
+        </scene>
+        <!--Splash Screen View Controller-->
+        <scene sceneID="UBM-PL-1hR">
+            <objects>
+                <viewController id="6Yh-Ld-ZPf" customClass="MPL_SplashScreenViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nKm-k9-O6f"/>
+                        <viewControllerLayoutGuide type="bottom" id="lL3-dU-oS3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YXj-0s-4Me">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img_mpl_splashtop.png" translatesAutoresizingMaskIntoConstraints="NO" id="NHi-db-JUE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b8u-Xd-zwm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1030" y="-48"/>
+        </scene>
+        <!--Navigation View Controller-->
+        <scene sceneID="RC0-v6-hmT">
+            <objects>
+                <viewController id="m61-dz-s3q" customClass="MPL_NavigationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PZG-cV-fPh"/>
+                        <viewControllerLayoutGuide type="bottom" id="wrT-XF-UoZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cS6-WD-YfL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="BMk-ev-uZq" kind="show" id="MPp-mi-LI9"/>
+                        <segue destination="OPM-b8-8bw" kind="show" id="YRy-Bz-xiG"/>
+                        <segue destination="7Hi-sM-R13" kind="show" id="Ajb-K7-gf4"/>
+                        <segue destination="08N-Js-YsN" kind="show" id="avK-1v-jqv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aT0-wb-9jC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1038" y="768"/>
+        </scene>
+        <!--Account View Controller-->
+        <scene sceneID="KVx-vc-vlR">
+            <objects>
+                <viewController id="OPM-b8-8bw" customClass="MPL_AccountViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wd0-Oe-Get"/>
+                        <viewControllerLayoutGuide type="bottom" id="fGK-qG-OQd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jfM-ak-dUQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5mk-IR-t3O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2463" y="402"/>
+        </scene>
+        <!--Provider Details View Controller-->
+        <scene sceneID="BZ8-s9-CVg">
+            <objects>
+                <viewController id="ccE-71-Ann" customClass="MPL_ProviderDetailsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Fc-5a-AW2"/>
+                        <viewControllerLayoutGuide type="bottom" id="fuS-qB-P8R"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LJC-aI-0dT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="weF-41-vy7" kind="show" id="f6e-9q-cwv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S8b-Ao-8dZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3639" y="-468"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="PW9-Lg-Dii">
+            <objects>
+                <viewController id="weF-41-vy7" customClass="MPL_MapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JkT-5m-ANq"/>
+                        <viewControllerLayoutGuide type="bottom" id="Spf-m5-Un3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cqN-xV-4gX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2CN-Nx-hBn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4155" y="-468"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eKd-8Z-7YK">
+            <objects>
+                <viewController id="08N-Js-YsN" customClass="MPL_FAQViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dum-r6-IU4"/>
+                        <viewControllerLayoutGuide type="bottom" id="mep-o6-gz9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FXy-pX-qJ1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ynl-jo-Y0y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1471" y="1652"/>
+        </scene>
+        <!--Favorites View Controller-->
+        <scene sceneID="AHJ-Kb-tXr">
+            <objects>
+                <viewController id="7Hi-sM-R13" customClass="MPL_FavoritesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JKF-t6-9mg"/>
+                        <viewControllerLayoutGuide type="bottom" id="VJD-yN-nwH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="N1T-Yt-r4a">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="ccE-71-Ann" kind="show" id="Z0v-yd-AM3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ch5-FU-pVF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2483" y="1270"/>
+        </scene>
+        <!--Search Form View Controller-->
+        <scene sceneID="caa-28-9Ls">
+            <objects>
+                <viewController id="BMk-ev-uZq" customClass="MPL_SearchFormViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0ys-xs-oXu"/>
+                        <viewControllerLayoutGuide type="bottom" id="T96-4h-IAC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Luf-kd-QDA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="pUn-vi-CR4" kind="show" id="aTX-LB-YHr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Ue-O7-uUz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2452" y="-448"/>
+        </scene>
+        <!--Search Results View Controller-->
+        <scene sceneID="WGR-Kd-5rd">
+            <objects>
+                <viewController id="pUn-vi-CR4" customClass="MPL_SearchResultsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sgl-Q2-Axi"/>
+                        <viewControllerLayoutGuide type="bottom" id="wSO-W3-QRg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6tv-hY-cHS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="ccE-71-Ann" kind="show" id="wcm-iA-6Zz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AZF-Rw-hhl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3063" y="-468"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img_logo_white.png" width="30" height="25"/>
+        <image name="img_mpl_splashtop.png" width="375" height="306"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Z0v-yd-AM3"/>
+    </inferredMetricsTieBreakers>
+</document>

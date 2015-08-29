@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57905A931B8259E5001587F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905A921B8259E5001587F1 /* main.m */; };
+		57905A961B8259E5001587F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905A951B8259E5001587F1 /* AppDelegate.m */; };
+		57905A991B8259E5001587F1 /* Medicare_Provider_Locator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57905A971B8259E5001587F1 /* Medicare_Provider_Locator.xcdatamodeld */; };
+		57905A9C1B8259E5001587F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905A9B1B8259E5001587F1 /* ViewController.m */; };
+		57905A9F1B8259E5001587F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57905A9D1B8259E5001587F1 /* Main.storyboard */; };
+		57905AA11B8259E5001587F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57905AA01B8259E5001587F1 /* Images.xcassets */; };
+		57905AA41B8259E5001587F1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57905AA21B8259E5001587F1 /* LaunchScreen.xib */; };
+		57905AB01B8259E5001587F1 /* Medicare_Provider_LocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905AAF1B8259E5001587F1 /* Medicare_Provider_LocatorTests.m */; };
+		57905ABC1B825A9A001587F1 /* MPL_SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905ABB1B825A9A001587F1 /* MPL_SplashScreenViewController.m */; };
+		57905ABF1B825B28001587F1 /* MPL_NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905ABE1B825B28001587F1 /* MPL_NavigationViewController.m */; };
+		57905AC21B825B6B001587F1 /* MPL_SearchFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905AC11B825B6B001587F1 /* MPL_SearchFormViewController.m */; };
+		57905AC51B825B93001587F1 /* MPL_AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905AC41B825B93001587F1 /* MPL_AccountViewController.m */; };
+		57905AC81B825BC4001587F1 /* MPL_FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905AC71B825BC4001587F1 /* MPL_FavoritesViewController.m */; };
+		57905ACB1B825BEF001587F1 /* MPL_SearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905ACA1B825BEF001587F1 /* MPL_SearchResultsViewController.m */; };
+		57905ACE1B825C2F001587F1 /* MPL_ProviderDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905ACD1B825C2F001587F1 /* MPL_ProviderDetailsViewController.m */; };
+		57905AD11B825C6B001587F1 /* MPL_MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905AD01B825C6B001587F1 /* MPL_MapViewController.m */; };
+		57905AD41B825C9A001587F1 /* MPL_FAQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905AD31B825C9A001587F1 /* MPL_FAQViewController.m */; };
+		57905AEF1B82621E001587F1 /* img_mpl_splashtop.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AD61B82621E001587F1 /* img_mpl_splashtop.png */; };
+		57905AF01B82621E001587F1 /* img_mplsplashbottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AD71B82621E001587F1 /* img_mplsplashbottom.png */; };
+		57905AF11B82621E001587F1 /* mpl_launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AD81B82621E001587F1 /* mpl_launchscreen.png */; };
+		57905AF21B82621E001587F1 /* img_companyPin_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AD91B82621E001587F1 /* img_companyPin_on.png */; };
+		57905AF31B82621E001587F1 /* img_companyPin.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905ADA1B82621E001587F1 /* img_companyPin.png */; };
+		57905AF41B82621E001587F1 /* img_UserLocation_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905ADB1B82621E001587F1 /* img_UserLocation_on.png */; };
+		57905AF51B82621E001587F1 /* img_UserLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905ADC1B82621E001587F1 /* img_UserLocation.png */; };
+		57905AF61B82621E001587F1 /* img_back_icon_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905ADD1B82621E001587F1 /* img_back_icon_on.png */; };
+		57905AF71B82621E001587F1 /* img_back_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905ADE1B82621E001587F1 /* img_back_icon.png */; };
+		57905AF81B82621E001587F1 /* img_search_icon_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905ADF1B82621E001587F1 /* img_search_icon_on.png */; };
+		57905AF91B82621E001587F1 /* img_search_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AE01B82621E001587F1 /* img_search_icon.png */; };
+		57905AFA1B82621E001587F1 /* img_website_icon_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AE11B82621E001587F1 /* img_website_icon_on.png */; };
+		57905AFB1B82621E001587F1 /* img_website_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AE21B82621E001587F1 /* img_website_icon.png */; };
+		57905AFC1B82621E001587F1 /* img_about_icon_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AE31B82621E001587F1 /* img_about_icon_on.png */; };
+		57905AFD1B82621E001587F1 /* img_about_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AE41B82621E001587F1 /* img_about_icon.png */; };
+		57905AFE1B82621E001587F1 /* img_comment_icon_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AE51B82621E001587F1 /* img_comment_icon_on.png */; };
+		57905AFF1B82621E001587F1 /* img_comment_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AE61B82621E001587F1 /* img_comment_icon.png */; };
+		57905B001B82621E001587F1 /* img_favorites_icon_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AE71B82621E001587F1 /* img_favorites_icon_on.png */; };
+		57905B011B82621E001587F1 /* img_favorites_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AE81B82621E001587F1 /* img_favorites_icon.png */; };
+		57905B021B82621E001587F1 /* img_map_icon_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AE91B82621E001587F1 /* img_map_icon_on.png */; };
+		57905B031B82621E001587F1 /* img_map_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AEA1B82621E001587F1 /* img_map_icon.png */; };
+		57905B041B82621E001587F1 /* img_mpl_full_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AEB1B82621E001587F1 /* img_mpl_full_logo.png */; };
+		57905B051B82621E001587F1 /* mpl_spaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AEC1B82621E001587F1 /* mpl_spaceholder.png */; };
+		57905B061B82621E001587F1 /* mpl_blue_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AED1B82621E001587F1 /* mpl_blue_logo.png */; };
+		57905B071B82621E001587F1 /* img_logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 57905AEE1B82621E001587F1 /* img_logo_white.png */; };
+		57905B1F1B826235001587F1 /* KIP_Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905B0A1B826235001587F1 /* KIP_Label.m */; };
+		57905B201B826235001587F1 /* KIP_TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905B0C1B826235001587F1 /* KIP_TextField.m */; };
+		57905B211B826235001587F1 /* KIP_StringManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905B0E1B826235001587F1 /* KIP_StringManager.m */; };
+		57905B221B826235001587F1 /* KIP_DateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905B101B826235001587F1 /* KIP_DateManager.m */; };
+		57905B231B826235001587F1 /* KIP_DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905B121B826235001587F1 /* KIP_DataManager.m */; };
+		57905B241B826235001587F1 /* KIP_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905B141B826235001587F1 /* KIP_Controller.m */; };
+		57905B251B826235001587F1 /* KIP_FormManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905B161B826235001587F1 /* KIP_FormManager.m */; };
+		57905B261B826235001587F1 /* MPL_SupplierCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905B181B826235001587F1 /* MPL_SupplierCell.m */; };
+		57905B271B826235001587F1 /* MPL_DottedBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905B1A1B826235001587F1 /* MPL_DottedBorder.m */; };
+		57905B281B826235001587F1 /* KIP_IconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905B1C1B826235001587F1 /* KIP_IconButton.m */; };
+		57905B291B826235001587F1 /* KIP_AnnontationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905B1E1B826235001587F1 /* KIP_AnnontationView.m */; };
+		57905B2E1B826295001587F1 /* collegeville.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 57905B2D1B826295001587F1 /* collegeville.gpx */; };
+		57905B331B82671E001587F1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 57905B321B82671E001587F1 /* Reachability.m */; };
+		57905B361B826736001587F1 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57905B351B826736001587F1 /* iAd.framework */; };
+		57905B381B826744001587F1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57905B371B826744001587F1 /* CoreLocation.framework */; };
+		57905B3A1B82674A001587F1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57905B391B82674A001587F1 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57905AAA1B8259E5001587F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57905A851B8259E5001587F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57905A8C1B8259E5001587F1;
+			remoteInfo = "Medicare Provider Locator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57905A8D1B8259E5001587F1 /* Medicare Provider Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medicare Provider Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57905A911B8259E5001587F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57905A921B8259E5001587F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57905A941B8259E5001587F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57905A951B8259E5001587F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57905A981B8259E5001587F1 /* Medicare_Provider_Locator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Medicare_Provider_Locator.xcdatamodel; sourceTree = "<group>"; };
+		57905A9A1B8259E5001587F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57905A9B1B8259E5001587F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57905A9E1B8259E5001587F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57905AA01B8259E5001587F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57905AA31B8259E5001587F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		57905AA91B8259E5001587F1 /* Medicare Provider LocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Medicare Provider LocatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57905AAE1B8259E5001587F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57905AAF1B8259E5001587F1 /* Medicare_Provider_LocatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Medicare_Provider_LocatorTests.m; sourceTree = "<group>"; };
+		57905ABA1B825A9A001587F1 /* MPL_SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPL_SplashScreenViewController.h; sourceTree = "<group>"; };
+		57905ABB1B825A9A001587F1 /* MPL_SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPL_SplashScreenViewController.m; sourceTree = "<group>"; };
+		57905ABD1B825B28001587F1 /* MPL_NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPL_NavigationViewController.h; sourceTree = "<group>"; };
+		57905ABE1B825B28001587F1 /* MPL_NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPL_NavigationViewController.m; sourceTree = "<group>"; };
+		57905AC01B825B6B001587F1 /* MPL_SearchFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPL_SearchFormViewController.h; sourceTree = "<group>"; };
+		57905AC11B825B6B001587F1 /* MPL_SearchFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPL_SearchFormViewController.m; sourceTree = "<group>"; };
+		57905AC31B825B93001587F1 /* MPL_AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPL_AccountViewController.h; sourceTree = "<group>"; };
+		57905AC41B825B93001587F1 /* MPL_AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPL_AccountViewController.m; sourceTree = "<group>"; };
+		57905AC61B825BC4001587F1 /* MPL_FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPL_FavoritesViewController.h; sourceTree = "<group>"; };
+		57905AC71B825BC4001587F1 /* MPL_FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPL_FavoritesViewController.m; sourceTree = "<group>"; };
+		57905AC91B825BEF001587F1 /* MPL_SearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPL_SearchResultsViewController.h; sourceTree = "<group>"; };
+		57905ACA1B825BEF001587F1 /* MPL_SearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPL_SearchResultsViewController.m; sourceTree = "<group>"; };
+		57905ACC1B825C2F001587F1 /* MPL_ProviderDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPL_ProviderDetailsViewController.h; sourceTree = "<group>"; };
+		57905ACD1B825C2F001587F1 /* MPL_ProviderDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPL_ProviderDetailsViewController.m; sourceTree = "<group>"; };
+		57905ACF1B825C6B001587F1 /* MPL_MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPL_MapViewController.h; sourceTree = "<group>"; };
+		57905AD01B825C6B001587F1 /* MPL_MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPL_MapViewController.m; sourceTree = "<group>"; };
+		57905AD21B825C9A001587F1 /* MPL_FAQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPL_FAQViewController.h; sourceTree = "<group>"; };
+		57905AD31B825C9A001587F1 /* MPL_FAQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPL_FAQViewController.m; sourceTree = "<group>"; };
+		57905AD61B82621E001587F1 /* img_mpl_splashtop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_mpl_splashtop.png; sourceTree = "<group>"; };
+		57905AD71B82621E001587F1 /* img_mplsplashbottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_mplsplashbottom.png; sourceTree = "<group>"; };
+		57905AD81B82621E001587F1 /* mpl_launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mpl_launchscreen.png; sourceTree = "<group>"; };
+		57905AD91B82621E001587F1 /* img_companyPin_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_companyPin_on.png; sourceTree = "<group>"; };
+		57905ADA1B82621E001587F1 /* img_companyPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_companyPin.png; sourceTree = "<group>"; };
+		57905ADB1B82621E001587F1 /* img_UserLocation_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_UserLocation_on.png; sourceTree = "<group>"; };
+		57905ADC1B82621E001587F1 /* img_UserLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_UserLocation.png; sourceTree = "<group>"; };
+		57905ADD1B82621E001587F1 /* img_back_icon_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_back_icon_on.png; sourceTree = "<group>"; };
+		57905ADE1B82621E001587F1 /* img_back_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_back_icon.png; sourceTree = "<group>"; };
+		57905ADF1B82621E001587F1 /* img_search_icon_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_search_icon_on.png; sourceTree = "<group>"; };
+		57905AE01B82621E001587F1 /* img_search_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_search_icon.png; sourceTree = "<group>"; };
+		57905AE11B82621E001587F1 /* img_website_icon_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_website_icon_on.png; sourceTree = "<group>"; };
+		57905AE21B82621E001587F1 /* img_website_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_website_icon.png; sourceTree = "<group>"; };
+		57905AE31B82621E001587F1 /* img_about_icon_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_about_icon_on.png; sourceTree = "<group>"; };
+		57905AE41B82621E001587F1 /* img_about_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_about_icon.png; sourceTree = "<group>"; };
+		57905AE51B82621E001587F1 /* img_comment_icon_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_comment_icon_on.png; sourceTree = "<group>"; };
+		57905AE61B82621E001587F1 /* img_comment_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_comment_icon.png; sourceTree = "<group>"; };
+		57905AE71B82621E001587F1 /* img_favorites_icon_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_favorites_icon_on.png; sourceTree = "<group>"; };
+		57905AE81B82621E001587F1 /* img_favorites_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_favorites_icon.png; sourceTree = "<group>"; };
+		57905AE91B82621E001587F1 /* img_map_icon_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_map_icon_on.png; sourceTree = "<group>"; };
+		57905AEA1B82621E001587F1 /* img_map_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_map_icon.png; sourceTree = "<group>"; };
+		57905AEB1B82621E001587F1 /* img_mpl_full_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_mpl_full_logo.png; sourceTree = "<group>"; };
+		57905AEC1B82621E001587F1 /* mpl_spaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mpl_spaceholder.png; sourceTree = "<group>"; };
+		57905AED1B82621E001587F1 /* mpl_blue_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mpl_blue_logo.png; sourceTree = "<group>"; };
+		57905AEE1B82621E001587F1 /* img_logo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_logo_white.png; sourceTree = "<group>"; };
+		57905B091B826235001587F1 /* KIP_Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIP_Label.h; sourceTree = "<group>"; };
+		57905B0A1B826235001587F1 /* KIP_Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIP_Label.m; sourceTree = "<group>"; };
+		57905B0B1B826235001587F1 /* KIP_TextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIP_TextField.h; sourceTree = "<group>"; };
+		57905B0C1B826235001587F1 /* KIP_TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIP_TextField.m; sourceTree = "<group>"; };
+		57905B0D1B826235001587F1 /* KIP_StringManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIP_StringManager.h; sourceTree = "<group>"; };
+		57905B0E1B826235001587F1 /* KIP_StringManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIP_StringManager.m; sourceTree = "<group>"; };
+		57905B0F1B826235001587F1 /* KIP_DateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIP_DateManager.h; sourceTree = "<group>"; };
+		57905B101B826235001587F1 /* KIP_DateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIP_DateManager.m; sourceTree = "<group>"; };
+		57905B111B826235001587F1 /* KIP_DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIP_DataManager.h; sourceTree = "<group>"; };
+		57905B121B826235001587F1 /* KIP_DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIP_DataManager.m; sourceTree = "<group>"; };
+		57905B131B826235001587F1 /* KIP_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIP_Controller.h; sourceTree = "<group>"; };
+		57905B141B826235001587F1 /* KIP_Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIP_Controller.m; sourceTree = "<group>"; };
+		57905B151B826235001587F1 /* KIP_FormManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIP_FormManager.h; sourceTree = "<group>"; };
+		57905B161B826235001587F1 /* KIP_FormManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIP_FormManager.m; sourceTree = "<group>"; };
+		57905B171B826235001587F1 /* MPL_SupplierCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPL_SupplierCell.h; sourceTree = "<group>"; };
+		57905B181B826235001587F1 /* MPL_SupplierCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPL_SupplierCell.m; sourceTree = "<group>"; };
+		57905B191B826235001587F1 /* MPL_DottedBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPL_DottedBorder.h; sourceTree = "<group>"; };
+		57905B1A1B826235001587F1 /* MPL_DottedBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPL_DottedBorder.m; sourceTree = "<group>"; };
+		57905B1B1B826235001587F1 /* KIP_IconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIP_IconButton.h; sourceTree = "<group>"; };
+		57905B1C1B826235001587F1 /* KIP_IconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIP_IconButton.m; sourceTree = "<group>"; };
+		57905B1D1B826235001587F1 /* KIP_AnnontationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIP_AnnontationView.h; sourceTree = "<group>"; };
+		57905B1E1B826235001587F1 /* KIP_AnnontationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIP_AnnontationView.m; sourceTree = "<group>"; };
+		57905B2C1B826257001587F1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		57905B2D1B826295001587F1 /* collegeville.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = collegeville.gpx; sourceTree = "<group>"; };
+		57905B2F1B8262A0001587F1 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		57905B311B82671E001587F1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		57905B321B82671E001587F1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		57905B351B826736001587F1 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		57905B371B826744001587F1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		57905B391B82674A001587F1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57905A8A1B8259E5001587F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57905B3A1B82674A001587F1 /* MapKit.framework in Frameworks */,
+				57905B381B826744001587F1 /* CoreLocation.framework in Frameworks */,
+				57905B361B826736001587F1 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57905AA61B8259E5001587F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57905A841B8259E5001587F1 = {
+			isa = PBXGroup;
+			children = (
+				57905B391B82674A001587F1 /* MapKit.framework */,
+				57905B371B826744001587F1 /* CoreLocation.framework */,
+				57905B351B826736001587F1 /* iAd.framework */,
+				57905B2D1B826295001587F1 /* collegeville.gpx */,
+				57905A8F1B8259E5001587F1 /* Medicare Provider Locator */,
+				57905AAC1B8259E5001587F1 /* Medicare Provider LocatorTests */,
+				57905A8E1B8259E5001587F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57905A8E1B8259E5001587F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57905A8D1B8259E5001587F1 /* Medicare Provider Locator.app */,
+				57905AA91B8259E5001587F1 /* Medicare Provider LocatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57905A8F1B8259E5001587F1 /* Medicare Provider Locator */ = {
+			isa = PBXGroup;
+			children = (
+				57905B341B826721001587F1 /* Categories */,
+				57905B301B826714001587F1 /* Libraries */,
+				57905B2B1B826246001587F1 /* Config */,
+				57905B2A1B826241001587F1 /* Model */,
+				57905B081B826221001587F1 /* Classes */,
+				57905AD51B826212001587F1 /* Images */,
+				57905AB91B8259EE001587F1 /* ViewControllers */,
+				57905A941B8259E5001587F1 /* AppDelegate.h */,
+				57905A951B8259E5001587F1 /* AppDelegate.m */,
+				57905A9D1B8259E5001587F1 /* Main.storyboard */,
+				57905AA01B8259E5001587F1 /* Images.xcassets */,
+				57905AA21B8259E5001587F1 /* LaunchScreen.xib */,
+				57905A971B8259E5001587F1 /* Medicare_Provider_Locator.xcdatamodeld */,
+				57905A901B8259E5001587F1 /* Supporting Files */,
+			);
+			path = "Medicare Provider Locator";
+			sourceTree = "<group>";
+		};
+		57905A901B8259E5001587F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57905B2C1B826257001587F1 /* PrefixHeader.pch */,
+				57905A911B8259E5001587F1 /* Info.plist */,
+				57905A921B8259E5001587F1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57905AAC1B8259E5001587F1 /* Medicare Provider LocatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				57905AAF1B8259E5001587F1 /* Medicare_Provider_LocatorTests.m */,
+				57905AAD1B8259E5001587F1 /* Supporting Files */,
+			);
+			path = "Medicare Provider LocatorTests";
+			sourceTree = "<group>";
+		};
+		57905AAD1B8259E5001587F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57905AAE1B8259E5001587F1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57905AB91B8259EE001587F1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				57905AC61B825BC4001587F1 /* MPL_FavoritesViewController.h */,
+				57905AC71B825BC4001587F1 /* MPL_FavoritesViewController.m */,
+				57905AC31B825B93001587F1 /* MPL_AccountViewController.h */,
+				57905AC41B825B93001587F1 /* MPL_AccountViewController.m */,
+				57905AC01B825B6B001587F1 /* MPL_SearchFormViewController.h */,
+				57905AC11B825B6B001587F1 /* MPL_SearchFormViewController.m */,
+				57905AC91B825BEF001587F1 /* MPL_SearchResultsViewController.h */,
+				57905ACA1B825BEF001587F1 /* MPL_SearchResultsViewController.m */,
+				57905ABA1B825A9A001587F1 /* MPL_SplashScreenViewController.h */,
+				57905ABB1B825A9A001587F1 /* MPL_SplashScreenViewController.m */,
+				57905ACC1B825C2F001587F1 /* MPL_ProviderDetailsViewController.h */,
+				57905ACD1B825C2F001587F1 /* MPL_ProviderDetailsViewController.m */,
+				57905ACF1B825C6B001587F1 /* MPL_MapViewController.h */,
+				57905AD01B825C6B001587F1 /* MPL_MapViewController.m */,
+				57905AD21B825C9A001587F1 /* MPL_FAQViewController.h */,
+				57905AD31B825C9A001587F1 /* MPL_FAQViewController.m */,
+				57905A9A1B8259E5001587F1 /* ViewController.h */,
+				57905A9B1B8259E5001587F1 /* ViewController.m */,
+				57905ABD1B825B28001587F1 /* MPL_NavigationViewController.h */,
+				57905ABE1B825B28001587F1 /* MPL_NavigationViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		57905AD51B826212001587F1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				57905AD61B82621E001587F1 /* img_mpl_splashtop.png */,
+				57905AD71B82621E001587F1 /* img_mplsplashbottom.png */,
+				57905AD81B82621E001587F1 /* mpl_launchscreen.png */,
+				57905AD91B82621E001587F1 /* img_companyPin_on.png */,
+				57905ADA1B82621E001587F1 /* img_companyPin.png */,
+				57905ADB1B82621E001587F1 /* img_UserLocation_on.png */,
+				57905ADC1B82621E001587F1 /* img_UserLocation.png */,
+				57905ADD1B82621E001587F1 /* img_back_icon_on.png */,
+				57905ADE1B82621E001587F1 /* img_back_icon.png */,
+				57905ADF1B82621E001587F1 /* img_search_icon_on.png */,
+				57905AE01B82621E001587F1 /* img_search_icon.png */,
+				57905AE11B82621E001587F1 /* img_website_icon_on.png */,
+				57905AE21B82621E001587F1 /* img_website_icon.png */,
+				57905AE31B82621E001587F1 /* img_about_icon_on.png */,
+				57905AE41B82621E001587F1 /* img_about_icon.png */,
+				57905AE51B82621E001587F1 /* img_comment_icon_on.png */,
+				57905AE61B82621E001587F1 /* img_comment_icon.png */,
+				57905AE71B82621E001587F1 /* img_favorites_icon_on.png */,
+				57905AE81B82621E001587F1 /* img_favorites_icon.png */,
+				57905AE91B82621E001587F1 /* img_map_icon_on.png */,
+				57905AEA1B82621E001587F1 /* img_map_icon.png */,
+				57905AEB1B82621E001587F1 /* img_mpl_full_logo.png */,
+				57905AEC1B82621E001587F1 /* mpl_spaceholder.png */,
+				57905AED1B82621E001587F1 /* mpl_blue_logo.png */,
+				57905AEE1B82621E001587F1 /* img_logo_white.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		57905B081B826221001587F1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				57905B091B826235001587F1 /* KIP_Label.h */,
+				57905B0A1B826235001587F1 /* KIP_Label.m */,
+				57905B0B1B826235001587F1 /* KIP_TextField.h */,
+				57905B0C1B826235001587F1 /* KIP_TextField.m */,
+				57905B0D1B826235001587F1 /* KIP_StringManager.h */,
+				57905B0E1B826235001587F1 /* KIP_StringManager.m */,
+				57905B0F1B826235001587F1 /* KIP_DateManager.h */,
+				57905B101B826235001587F1 /* KIP_DateManager.m */,
+				57905B111B826235001587F1 /* KIP_DataManager.h */,
+				57905B121B826235001587F1 /* KIP_DataManager.m */,
+				57905B131B826235001587F1 /* KIP_Controller.h */,
+				57905B141B826235001587F1 /* KIP_Controller.m */,
+				57905B151B826235001587F1 /* KIP_FormManager.h */,
+				57905B161B826235001587F1 /* KIP_FormManager.m */,
+				57905B171B826235001587F1 /* MPL_SupplierCell.h */,
+				57905B181B826235001587F1 /* MPL_SupplierCell.m */,
+				57905B191B826235001587F1 /* MPL_DottedBorder.h */,
+				57905B1A1B826235001587F1 /* MPL_DottedBorder.m */,
+				57905B1B1B826235001587F1 /* KIP_IconButton.h */,
+				57905B1C1B826235001587F1 /* KIP_IconButton.m */,
+				57905B1D1B826235001587F1 /* KIP_AnnontationView.h */,
+				57905B1E1B826235001587F1 /* KIP_AnnontationView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		57905B2A1B826241001587F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		57905B2B1B826246001587F1 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				57905B2F1B8262A0001587F1 /* config.h */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		57905B301B826714001587F1 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				57905B311B82671E001587F1 /* Reachability.h */,
+				57905B321B82671E001587F1 /* Reachability.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		57905B341B826721001587F1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57905A8C1B8259E5001587F1 /* Medicare Provider Locator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57905AB31B8259E5001587F1 /* Build configuration list for PBXNativeTarget "Medicare Provider Locator" */;
+			buildPhases = (
+				57905A891B8259E5001587F1 /* Sources */,
+				57905A8A1B8259E5001587F1 /* Frameworks */,
+				57905A8B1B8259E5001587F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Medicare Provider Locator";
+			productName = "Medicare Provider Locator";
+			productReference = 57905A8D1B8259E5001587F1 /* Medicare Provider Locator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57905AA81B8259E5001587F1 /* Medicare Provider LocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57905AB61B8259E5001587F1 /* Build configuration list for PBXNativeTarget "Medicare Provider LocatorTests" */;
+			buildPhases = (
+				57905AA51B8259E5001587F1 /* Sources */,
+				57905AA61B8259E5001587F1 /* Frameworks */,
+				57905AA71B8259E5001587F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57905AAB1B8259E5001587F1 /* PBXTargetDependency */,
+			);
+			name = "Medicare Provider LocatorTests";
+			productName = "Medicare Provider LocatorTests";
+			productReference = 57905AA91B8259E5001587F1 /* Medicare Provider LocatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57905A851B8259E5001587F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Knowink Publishing";
+				TargetAttributes = {
+					57905A8C1B8259E5001587F1 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 9RT49S32U7;
+					};
+					57905AA81B8259E5001587F1 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 57905A8C1B8259E5001587F1;
+					};
+				};
+			};
+			buildConfigurationList = 57905A881B8259E5001587F1 /* Build configuration list for PBXProject "Medicare Provider Locator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57905A841B8259E5001587F1;
+			productRefGroup = 57905A8E1B8259E5001587F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57905A8C1B8259E5001587F1 /* Medicare Provider Locator */,
+				57905AA81B8259E5001587F1 /* Medicare Provider LocatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57905A8B1B8259E5001587F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57905AFC1B82621E001587F1 /* img_about_icon_on.png in Resources */,
+				57905AF01B82621E001587F1 /* img_mplsplashbottom.png in Resources */,
+				57905AF71B82621E001587F1 /* img_back_icon.png in Resources */,
+				57905AF41B82621E001587F1 /* img_UserLocation_on.png in Resources */,
+				57905B041B82621E001587F1 /* img_mpl_full_logo.png in Resources */,
+				57905A9F1B8259E5001587F1 /* Main.storyboard in Resources */,
+				57905AFE1B82621E001587F1 /* img_comment_icon_on.png in Resources */,
+				57905B061B82621E001587F1 /* mpl_blue_logo.png in Resources */,
+				57905AFF1B82621E001587F1 /* img_comment_icon.png in Resources */,
+				57905AF91B82621E001587F1 /* img_search_icon.png in Resources */,
+				57905B071B82621E001587F1 /* img_logo_white.png in Resources */,
+				57905B001B82621E001587F1 /* img_favorites_icon_on.png in Resources */,
+				57905AA41B8259E5001587F1 /* LaunchScreen.xib in Resources */,
+				57905AFA1B82621E001587F1 /* img_website_icon_on.png in Resources */,
+				57905AEF1B82621E001587F1 /* img_mpl_splashtop.png in Resources */,
+				57905AF21B82621E001587F1 /* img_companyPin_on.png in Resources */,
+				57905B031B82621E001587F1 /* img_map_icon.png in Resources */,
+				57905AF11B82621E001587F1 /* mpl_launchscreen.png in Resources */,
+				57905B2E1B826295001587F1 /* collegeville.gpx in Resources */,
+				57905AF51B82621E001587F1 /* img_UserLocation.png in Resources */,
+				57905AF81B82621E001587F1 /* img_search_icon_on.png in Resources */,
+				57905B051B82621E001587F1 /* mpl_spaceholder.png in Resources */,
+				57905AF61B82621E001587F1 /* img_back_icon_on.png in Resources */,
+				57905AFD1B82621E001587F1 /* img_about_icon.png in Resources */,
+				57905B021B82621E001587F1 /* img_map_icon_on.png in Resources */,
+				57905B011B82621E001587F1 /* img_favorites_icon.png in Resources */,
+				57905AA11B8259E5001587F1 /* Images.xcassets in Resources */,
+				57905AFB1B82621E001587F1 /* img_website_icon.png in Resources */,
+				57905AF31B82621E001587F1 /* img_companyPin.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57905AA71B8259E5001587F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57905A891B8259E5001587F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57905AD41B825C9A001587F1 /* MPL_FAQViewController.m in Sources */,
+				57905B271B826235001587F1 /* MPL_DottedBorder.m in Sources */,
+				57905B261B826235001587F1 /* MPL_SupplierCell.m in Sources */,
+				57905AC21B825B6B001587F1 /* MPL_SearchFormViewController.m in Sources */,
+				57905B331B82671E001587F1 /* Reachability.m in Sources */,
+				57905B251B826235001587F1 /* KIP_FormManager.m in Sources */,
+				57905B221B826235001587F1 /* KIP_DateManager.m in Sources */,
+				57905ACE1B825C2F001587F1 /* MPL_ProviderDetailsViewController.m in Sources */,
+				57905B291B826235001587F1 /* KIP_AnnontationView.m in Sources */,
+				57905B241B826235001587F1 /* KIP_Controller.m in Sources */,
+				57905B211B826235001587F1 /* KIP_StringManager.m in Sources */,
+				57905B201B826235001587F1 /* KIP_TextField.m in Sources */,
+				57905ABF1B825B28001587F1 /* MPL_NavigationViewController.m in Sources */,
+				57905AC51B825B93001587F1 /* MPL_AccountViewController.m in Sources */,
+				57905A991B8259E5001587F1 /* Medicare_Provider_Locator.xcdatamodeld in Sources */,
+				57905A961B8259E5001587F1 /* AppDelegate.m in Sources */,
+				57905A9C1B8259E5001587F1 /* ViewController.m in Sources */,
+				57905AD11B825C6B001587F1 /* MPL_MapViewController.m in Sources */,
+				57905A931B8259E5001587F1 /* main.m in Sources */,
+				57905AC81B825BC4001587F1 /* MPL_FavoritesViewController.m in Sources */,
+				57905B281B826235001587F1 /* KIP_IconButton.m in Sources */,
+				57905B231B826235001587F1 /* KIP_DataManager.m in Sources */,
+				57905B1F1B826235001587F1 /* KIP_Label.m in Sources */,
+				57905ABC1B825A9A001587F1 /* MPL_SplashScreenViewController.m in Sources */,
+				57905ACB1B825BEF001587F1 /* MPL_SearchResultsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57905AA51B8259E5001587F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57905AB01B8259E5001587F1 /* Medicare_Provider_LocatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57905AAB1B8259E5001587F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57905A8C1B8259E5001587F1 /* Medicare Provider Locator */;
+			targetProxy = 57905AAA1B8259E5001587F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57905A9D1B8259E5001587F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57905A9E1B8259E5001587F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57905AA21B8259E5001587F1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57905AA31B8259E5001587F1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57905AB11B8259E5001587F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		57905AB21B8259E5001587F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57905AB41B8259E5001587F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "Medicare Provider Locator/PrefixHeader.pch";
+				INFOPLIST_FILE = "Medicare Provider Locator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		57905AB51B8259E5001587F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "Medicare Provider Locator/PrefixHeader.pch";
+				INFOPLIST_FILE = "Medicare Provider Locator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		57905AB71B8259E5001587F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Medicare Provider LocatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medicare Provider Locator.app/Medicare Provider Locator";
+			};
+			name = Debug;
+		};
+		57905AB81B8259E5001587F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Medicare Provider LocatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medicare Provider Locator.app/Medicare Provider Locator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57905A881B8259E5001587F1 /* Build configuration list for PBXProject "Medicare Provider Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57905AB11B8259E5001587F1 /* Debug */,
+				57905AB21B8259E5001587F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57905AB31B8259E5001587F1 /* Build configuration list for PBXNativeTarget "Medicare Provider Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57905AB41B8259E5001587F1 /* Debug */,
+				57905AB51B8259E5001587F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57905AB61B8259E5001587F1 /* Build configuration list for PBXNativeTarget "Medicare Provider LocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57905AB71B8259E5001587F1 /* Debug */,
+				57905AB81B8259E5001587F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		57905A971B8259E5001587F1 /* Medicare_Provider_Locator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				57905A981B8259E5001587F1 /* Medicare_Provider_Locator.xcdatamodel */,
+			);
+			currentVersion = 57905A981B8259E5001587F1 /* Medicare_Provider_Locator.xcdatamodel */;
+			path = Medicare_Provider_Locator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 57905A851B8259E5001587F1 /* Project object */;
+}
